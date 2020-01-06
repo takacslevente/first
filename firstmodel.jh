@@ -1,0 +1,11 @@
+entity Patient {
+	id ID
+	firstName String
+    lastName String
+    dob Date
+    sex Sex
+}
+
+enum Sex {
+    MALE, FEMALE
+}
