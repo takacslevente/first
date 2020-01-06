@@ -45,6 +45,7 @@ public class CacheConfiguration {
             createCache(cm, com.ltakacs.first.domain.User.class.getName());
             createCache(cm, com.ltakacs.first.domain.Authority.class.getName());
             createCache(cm, com.ltakacs.first.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.ltakacs.first.domain.Patient.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
