@@ -1,0 +1,25 @@
+{
+  "firstApp": {
+    "patient": {
+      "home": {
+        "title": "Patients",
+        "createLabel": "Egy új Patient létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Patientt",
+        "notFound": "No Patients found"
+      },
+      "created": "Egy új Patient lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Patient módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Patient törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Patientt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Patient"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "dob": "Dob",
+      "sex": "Sex"
+    }
+  }
+}
